@@ -1,0 +1,45 @@
+.logoNavBar{
+    height: 10rem;
+    margin-left: -103%;
+}
+.universalFont {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.navbar{
+    text-align: center;
+  /* background-color: #042a3e; */
+  height: 11rem;
+}
+.firstPartSloganInicio{
+    font-size: 31px;
+    font-weight: bolder;
+    
+}
+.fontIconContainer{
+    font-size: 2rem;
+    color: #332383 !important;
+}
+.titlesNavBar{
+    width: 55rem;
+    color: #332383;
+    margin-left: 7%;
+
+}
+.firsTitleNavBar{
+    margin-top: 7%;
+}
+.faIcon{
+    color: #332383;
+}
+.faIcon:hover{
+    color: #5b9bc3;
+}
+.seasonBanner{
+    height: 35rem;
+    background-image: url("/assets/images/scuba-diving.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 50%;
+}
