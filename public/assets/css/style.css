@@ -67,10 +67,14 @@
 .imgMx{
     width: 20rem;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 6%;
 }
 .contactUsInicioBtn{
     margin-top: 1.5%;
+}
+.servicesTulumDiv{
+    margin-top: 3%;
+    margin-bottom: 5%;
 }
 
 /* MEDIA QUERIES */
@@ -90,6 +94,14 @@
 /* Media for Ipad according to Google. */
 
 @media (min-width: 768px) and (max-width: 1000px) {
+    .serviceImg{
+        margin-bottom: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .didYouKnowDiv{
+        margin-bottom: 10%;
+    }
 
     .seasonBanner{
         height: 26rem;
@@ -115,6 +127,13 @@
 /* Media for Pixel 2, Pixel 2 XL, Iphone 6,7,8,X & plus versions according to Google. */
 
 @media (min-width: 401px) and (max-width: 767px) {
+    .serviceImg{
+        margin-bottom: 10%;
+        margin-left: 12%;
+    }
+    .didYouKnowDiv{
+        margin-bottom: 10%;
+    }
     .whiteContainer{
         background-color: rgba(0, 0, 0, 0.719);
         padding-right: 7%;
@@ -146,7 +165,13 @@
 /* Media for Moto4 & Galaxy S5 According to google. */
 
 @media (max-width: 400px) {
-
+    .serviceImg{
+        margin-bottom: 10%;
+        margin-left: 6%;
+    }
+    .didYouKnowDiv{
+        margin-bottom: 10%;
+    }
     .whiteContainer{
         background-color: rgba(0, 0, 0, 0.719);
         padding-right: 7%;
