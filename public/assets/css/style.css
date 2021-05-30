@@ -47,6 +47,10 @@
     margin-left: 7%;
 
 }
+.didYouKnowDivTitle{
+    padding-right: 3%;
+    padding-left: 3%;
+}
 .firsTitleNavBar{
     margin-top: 7%;
 }
@@ -75,6 +79,24 @@
 .servicesTulumDiv{
     margin-top: 3%;
     margin-bottom: 5%;
+}
+.serviceImg2:hover{
+    width: 19rem !important;
+    transition: width 1s 
+}
+.bannerPromoContact{
+    height: 23.5rem;
+    background-image: url("/assets/images/boat.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    margin-bottom: 5%;
+    padding-top: 2%;
+}
+
+.logoBuceoBlancoPromoBanner{
+    height: 10rem;
 }
 
 /* MEDIA QUERIES */
@@ -127,6 +149,9 @@
 /* Media for Pixel 2, Pixel 2 XL, Iphone 6,7,8,X & plus versions according to Google. */
 
 @media (min-width: 401px) and (max-width: 767px) {
+    .bannerPromoContact{
+        height: 27.5rem;
+    }
     .serviceImg{
         margin-bottom: 10%;
         margin-left: 12%;
@@ -165,6 +190,9 @@
 /* Media for Moto4 & Galaxy S5 According to google. */
 
 @media (max-width: 400px) {
+    .bannerPromoContact{
+        height: 27.5rem;
+    }
     .serviceImg{
         margin-bottom: 10%;
         margin-left: 6%;
