@@ -22,6 +22,14 @@
     font-size: 2rem;
     color: #332383 !important;
 }
+.copyrightTitle{
+    color: #332383 !important;
+    font-size: 1rem;
+}
+.footer{
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
 .whiteContainer{
     background-color: rgba(0, 0, 0, 0.65);
     padding-right: 0%;
@@ -67,6 +75,20 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
+}
+.bannerDiving{
+    height: 40rem;
+    background-image: url("/assets/images/bannerDiving.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.bannerDivingInsta{
+    height: 30rem;
+    background-image: url("/assets/images/bannerDivingInsta.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .imgMx{
     width: 20rem;
@@ -116,6 +138,12 @@
 /* Media for Ipad according to Google. */
 
 @media (min-width: 768px) and (max-width: 1000px) {
+    .bannerDiving{
+        height: 24rem;
+    }
+    .bannerDivingInsta{
+        height: 18rem;
+    }
     .serviceImg{
         margin-bottom: 10%;
         margin-left: 5%;
@@ -149,6 +177,12 @@
 /* Media for Pixel 2, Pixel 2 XL, Iphone 6,7,8,X & plus versions according to Google. */
 
 @media (min-width: 401px) and (max-width: 767px) {
+    .bannerDiving{
+        height: 16rem;
+    }
+    .bannerDivingInsta{
+        height: 11rem;
+    }
     .bannerPromoContact{
         height: 27.5rem;
     }
@@ -190,6 +224,12 @@
 /* Media for Moto4 & Galaxy S5 According to google. */
 
 @media (max-width: 400px) {
+    .bannerDiving{
+        height: 15rem;
+    }
+    .bannerDivingInsta{
+        height: 11rem;
+    }
     .bannerPromoContact{
         height: 27.5rem;
     }
