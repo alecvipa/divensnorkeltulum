@@ -4,3 +4,6 @@ $(".contactUsInicioBtn, .serviceImg2, .contactUsInicioBtn2").click(function(){
 $(".bannerDiving, .bannerDivingInsta").click(function(){
     window.open("https://www.instagram.com/diveandsnorkeltulum/?hl=es");
 });
+// $(".logoNavBar").click(function(){
+//     window.open("https://www.divensnorkeltulum.com/inicio");
+// });
