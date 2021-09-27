@@ -31,6 +31,7 @@
             'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '600219211358476');
         fbq('track', 'PageView');
+        fbq('track', 'Purchase');
     </script>
     <noscript><img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=600219211358476&ev=PageView&noscript=1" /></noscript>
@@ -84,7 +85,7 @@
         crossorigin="anonymous"></script>
     <script type="text/javascript">
         $('#$socialMediaLink').click(function () {
-            fbq('track', 'Purchase', { currency: "USD", value: 00.00 });
+            fbq('track', 'Purchase');
             console.log("hello");
         });
     </script>
