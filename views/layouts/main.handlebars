@@ -21,7 +21,7 @@
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return; n = f.fbq = function () {
                 n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
             if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
             n.queue = []; t = b.createElement(e); t.async = !0;
@@ -50,11 +50,11 @@
                 </div>
                 <div class="col-md-2 text-center fontIconContainer">
                     <a href="https://api.whatsapp.com/send?phone=529841468507" target="_blank" rel="noopener noreferrer"
-                        class="faIcon whatsLink"><i class="fab fa-whatsapp"></i></a>
+                        class="faIcon whatsLink" id="socialMediaLink"><i class="fab fa-whatsapp"></i></a>
                     <a href="https://www.instagram.com/diveandsnorkeltulum/?hl=es" class="faIcon" target="_blank"
-                        rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        rel="noopener noreferrer"><i class="fab fa-instagram" id="socialMediaLink"></i></a>
                     <a href="https://www.facebook.com/diveandsnorkel" class="faIcon" target="_blank"
-                        rel="noopener noreferrer"><i class="fab fa-facebook-square"></i></a>
+                        rel="noopener noreferrer" id="socialMediaLink"><i class="fab fa-facebook-square"></i></a>
                 </div>
             </div>
         </div>
@@ -82,6 +82,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $('#$socialMediaLink').click(function () {
+            fbq('track', 'Purchase', { currency: "USD", value: 00.00 });
+            console.log("hello");
+        });
+    </script>
 </body>
 
 </html>
